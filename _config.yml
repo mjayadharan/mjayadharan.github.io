@@ -16,8 +16,8 @@ minimal: false             # use a dark header
 # Menu
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
-  - {title:"Home", url: "https://mjayadharan.github.io"}
-  - {file: "/ManuCV.pdf", title: "CV"}
+  - {title:"Home", url: "google.com"}
+  - {file: "ManuCV.pdf", title: "CV"}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Mail, icon: envelope, url: "mailto:manu.jayadharan@gmail.com"}
