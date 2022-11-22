@@ -16,7 +16,6 @@ minimal: false             # use a dark header
 # Menu
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
-  - {title: "Google link", url: "https://google.com"}
   - {file: "ManuCV.pdf", title: "CV"}
   - {title: Linkedin, icon: linkedin, url: "https://www.linkedin.com/in/manu-jayadharan/"}
 
