@@ -1,5 +1,5 @@
 title: "Manu Jayadharan"
-author: "Blog Author"
+author: "Manu Jayadharan"
 description: "Made with <b style=\"color: #f45;\">&lt;3</b>"
 permalink: /:title/
 lang: "en"
@@ -21,8 +21,9 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Mail, icon: envelope, url: "mailto:manu.jayadharan@gmail.com"}
+  - {title: ResearchGate, icon: researchgate, url: "https://www.researchgate.net/profile/Manu-Jayadharan"}
   - {title: Github, icon: github, url: "https://github.com/mjayadharan"}
-  - {title: Subscribe, icon: rss, url: "/feed.xml"}
+  - {title: Linkedin, icon: linkedin, url: "https://www.linkedin.com/in/manu-jayadharan/"}
 
 comments:
 #  disqus_shortname: ""    # see https://disqus.com/
