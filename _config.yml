@@ -1,4 +1,4 @@
-title: "Blog Title"
+title: "Manu Jayadharan"
 author: "Blog Author"
 description: "Made with <b style=\"color: #f45;\">&lt;3</b>"
 permalink: /:title/
@@ -20,8 +20,8 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {file: "README.md"}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
-  - {title: Mail, icon: envelope, url: "mailto:niklasbuschmann@users.noreply.github.com"}
-  - {title: Github, icon: github, url: "https://github.com/niklasbuschmann/contrast"}
+  - {title: Mail, icon: envelope, url: "mailto:manu.jayadharan@gmail.com"}
+  - {title: Github, icon: github, url: "https://github.com/mjayadharan"}
   - {title: Subscribe, icon: rss, url: "/feed.xml"}
 
 comments:
