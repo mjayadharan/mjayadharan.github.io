@@ -16,7 +16,9 @@ minimal: false             # use a dark header
 # Menu
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
-  - {title: "CV", url: "/ManuCV.pdf"}
+  - {title: "CV", url: "/items/CV_2022TD.pdf"}
+  - {title: "Teaching", url: "/items/teachingExp.pdf"}
+  - {title: "Research", url: "https://www.researchgate.net/profile/Manu-Jayadharan"}
   - {title: Linkedin, url: "https://www.linkedin.com/in/manu-jayadharan/"}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
