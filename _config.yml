@@ -18,8 +18,9 @@ minimal: false             # use a dark header
 navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {title: "CV", url: "/items/CV_2022TD.pdf"}
   - {title: "Teaching", url: "/items/teachingExp.pdf"}
-  - {title: Research, icon: researchgate, url: "https://www.researchgate.net/profile/Manu-Jayadharan"}
   - {title: "Publications", url: "/items/publicaton_list.pdf"}
+  - {title: Research, icon: researchgate, url: "https://www.researchgate.net/profile/Manu-Jayadharan"}
+  
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Mail, icon: envelope, url: "mailto:manu.jayadharan@gmail.com"}
