@@ -203,3 +203,18 @@ If any of any of the market movements, given by $ \delta_S $, $ \delta_T $, $ \d
 ```python
 
 ```
+
+
+```python
+
+```
+
+
+```python
+
+```
+
+
+```python
+
+```
