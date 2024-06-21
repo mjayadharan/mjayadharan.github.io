@@ -163,11 +163,11 @@ __When you use Greeks to analyze and hedge your risks, you are making approximat
 
 ### Understanding first-order approximations in risk calculations: How hedges can fall off !
 
-Let's dive into the math of risk approximation with an example using an option pricing function $ P(S, T, \sigma, r) $.
+Let's dive into the math of risk approximation with an example using an option pricing function \( P(S, T, \sigma, r) \).
 
 #### Full Taylor Series Expansion
 
-To find the change in the pricing function $ P $ when $ S $, $ T $, $ \sigma $, and $ r $ change by $ \delta_S $, $ \delta_T $, $ \delta_\sigma $, and $ \delta_r $ respectively, we use a Taylor series expansion around the point $(S, T, \sigma, r)$.
+To find the change in the pricing function \( P \) when \( S \), \( T \), \( \sigma \), and \( r \) change by \( \delta_S \), \( \delta_T \), \( \delta_\sigma \), and \( \delta_r \) respectively, we use a Taylor series expansion around the point \((S, T, \sigma, r)\).
 
 The full Taylor series expansion is:
 
@@ -197,24 +197,6 @@ $$
 
 __Impact of missing higher-order terms__:
 
-If any of any of the market movements, given by $ \delta_S $, $ \delta_T $, $ \delta_\sigma $, or $ \delta_r $ are large, the higher-order terms become significant. The error introduced by ignoring these terms can be substantial and our hedges fall out of sync. For example, for the example discussed above where we created a delta neutral portfolio buy buying a TSLA call option and shorting some TSLA stocks to cancel the delta risk. If the price of the TSLA option moves by a big number, say 10, then $\delta_S $ is large, and  $ \delta_S^2 =100$ is even larger, and the contribution of the second order terms to the total change in $P $ can be significant. Depending upon the positions we took, we could be very be in trouble even though we had a completely delta hedged portfolio!. 
+If any of \( \delta_S \), \( \delta_T \), \( \delta_\sigma \), or \( \delta_r \) are large, the higher-order terms become significant. The error introduced by ignoring these terms can be substantial and our hedges fall out of sync. For example, if the price of the option, moving in the case of a large number,
 
 
-```python
-
-```
-
-
-```python
-
-```
-
-
-```python
-
-```
-
-
-```python
-
-```
