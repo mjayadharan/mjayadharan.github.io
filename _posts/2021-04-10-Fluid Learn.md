@@ -1,5 +1,6 @@
-# [FluidLearn](https://github.com/mjayadharan/FluidLearn)
--------------------------
+---
+title: "FluidLearn: Solving Fluid Flow PDEs with Physics-Informed Neural Networks"
+---
 
 FluidLearn is a software package with python interface, capable of solving non-linear fluid flow problems using supervised deep learning techniques. The solution function and the PDE operator are approximated as neural networks, which will be trained using labelled data.  
 

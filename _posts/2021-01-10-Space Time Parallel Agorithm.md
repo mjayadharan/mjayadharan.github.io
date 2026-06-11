@@ -1,5 +1,8 @@
-# Multiscale Mortar Mixed Finite Element method using novel   Space-Time Domain Decomposition (MMMFE-ST-DD)
-Fluid flow simulator using multiscale space-time domains. 
+---
+title: "MMMFE-ST-DD: A Parallel Fluid Flow Simulator Using Space-Time Domain Decomposition"
+---
+
+Fluid flow simulator using multiscale space-time domains.
 
 __Full repository can be found [here](https://github.com/mjayadharan/MMMFE-ST-DD).__
 

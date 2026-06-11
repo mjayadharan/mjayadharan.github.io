@@ -138,3 +138,75 @@ a:hover .icon
     color: #f92672
   .gi
     color: #a6e22e
+
+// --- Academic home page ---
+
+.profile
+  display: flex
+  flex-wrap: wrap
+  align-items: center
+  gap: 2em
+  margin: 1em 0 2em
+
+.profile img
+  border-radius: 50%
+  width: 10.5em
+  height: 10.5em
+  object-fit: cover
+  object-position: top
+  box-shadow: 0 0 0 4px reduce(12)
+  margin: 0
+
+.profile-info h1
+  font-size: 1.9em
+  margin: 0 0 .15em
+
+.tagline
+  color: reduce(72)
+  line-height: 1.45
+  margin: .3em 0 1em
+  text-align: left
+
+.profile-links
+  display: flex
+  flex-wrap: wrap
+  gap: .55em
+
+.profile-links a
+  border: 1.5px solid $link-color
+  border-radius: 2px
+  padding: .25em .7em
+  font-size: .85em
+  white-space: nowrap
+  transition: .2s background, .2s color
+
+.profile-links a:hover
+  background: $link-color
+  color: #fff
+  text-decoration: inherit
+
+.home h2
+  margin-top: 2em
+  padding-bottom: .25em
+  border-bottom: 1px solid reduce(14)
+
+.news
+  list-style: none
+  padding: 0
+
+.news li
+  margin: .65em 0
+  text-align: justify
+
+.news time
+  display: inline-block
+  min-width: 9ch
+  color: reduce(70)
+  font-size: .9em
+
+.pub-list
+  padding-left: 1.2em
+
+.pub-list li
+  margin: .8em 0
+  text-align: justify

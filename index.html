@@ -3,8 +3,97 @@ layout: default
 title: "Home"
 ---
 
-{% if site.show_excerpts %}
-  {% include home.html %}
-{% else %}
-  {% include archive.html title="Posts" %}
-{% endif %}
+<article class="home">
+
+  <div class="profile">
+    <img src="{{ '/items/im/potrait.png' | relative_url }}" alt="Portrait of Manu Jayadharan">
+    <div class="profile-info">
+      <h1>Manu Jayadharan, PhD</h1>
+      <p class="tagline">
+        Applied mathematician and computational scientist<br>
+        Postdoctoral Fellow, Engineering Sciences &amp; Applied Mathematics<br>
+        Northwestern University
+      </p>
+      <div class="profile-links">
+        <a href="{{ '/items/CV_Manu_Jayadharan_2026.pdf' | relative_url }}">CV</a>
+        <a href="https://scholar.google.com/citations?user=s4yYujAAAAAJ&hl=en">Google Scholar</a>
+        <a href="https://github.com/mjayadharan">GitHub</a>
+        <a href="https://www.linkedin.com/in/manu-jayadharan/">LinkedIn</a>
+        <a href="https://orcid.org/0009-0007-9287-3325">ORCID</a>
+        <a href="mailto:manu.jayadharan@northwestern.edu">Email</a>
+      </div>
+    </div>
+  </div>
+
+  <p>
+    I work at the intersection of scientific machine learning, dynamical systems, and numerical
+    methods, with a focus on developing algorithms to discover real-world models. I design
+    numerically stable, data-driven methods for discovering and solving differential equations and
+    implement them as open-source software. My background spans high-performance numerical solvers
+    for PDEs, industry-scale quantitative modeling at Citigroup, and data-driven model discovery,
+    with applications in biological, physical, and financial domains.
+  </p>
+
+  <p>
+    At Northwestern I work with <a href="https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/mangan-niall.html">Dr. Niall
+    Mangan</a>, and I am an affiliated researcher at the NSF&ndash;Simons
+    <a href="https://www.nitmb.org/">National Institute for Theory and Mathematics in Biology
+    (NITMB)</a> and the Trienens Institute for Sustainability and Energy. I hold a PhD in
+    Mathematics from the University of Pittsburgh (2021) and worked as a Quantitative Analyst (AVP)
+    at Citigroup from 2021 to 2023.
+  </p>
+
+  <h2>What I work on</h2>
+  <ul class="pub-list">
+    <li><strong>Equation discovery from data.</strong> Stable, interpretable algorithms for
+      learning differential and differential-algebraic equations from noisy measurements:
+      <a href="https://doi.org/10.1098/rspa.2025.0201">SODAs</a> (<em>Proc. Royal Society A</em>,
+      2026) and the open-source package
+      <a href="https://github.com/mjayadharan/DAE-FINDER_dev">DAE-FINDER</a>.</li>
+    <li><strong>Inverse problems and optimization.</strong> Multiple-shooting frameworks and
+      custom optimization for ill-conditioned parameter estimation in stiff ODE/PDE systems.</li>
+    <li><strong>Multiphysics PDE solvers.</strong> Fast, flexible finite-element solvers for
+      coupled Poisson&ndash;Nernst&ndash;Planck electrochemical systems; domain decomposition for
+      Biot poroelasticity.</li>
+    <li><strong>Agentic AI for scientific computing.</strong> Protocols, validation frameworks,
+      and reusable agentic skill sets for using frontier AI agents in scientific computing, with a
+      new graduate course at Northwestern in Fall 2026.</li>
+  </ul>
+  <p><a href="{{ '/research/' | relative_url }}">More about my research &rarr;</a></p>
+
+  <h2>News</h2>
+  <ul class="news">
+    <li><time>2026</time> Teaching a new project-based graduate course, <em>Agentic AI for
+      Scientific Computing</em>, at Northwestern Applied Mathematics in Fall 2026.</li>
+    <li><time>2026</time> <strong>SODAs</strong>, our sparse-optimization algorithm for
+      discovering differential-algebraic systems from data, published in <em>Proceedings of the
+      Royal Society A</em>.</li>
+    <li><time>2026</time> Senior-author preprint on ill-conditioning in dictionary-based
+      equation learning (arXiv:2603.11330) under review at <em>SIAM J. Life Sciences</em>.</li>
+    <li><time>Aug 2025</time> Invited talk, <em>From Data to Differential Equations</em>, at the
+      Indian Institute of Space Science and Technology.</li>
+    <li><time>Jul 2025</time> Invited talk on SODAs at the SIAM Annual Meeting (AN25).</li>
+    <li><time>2025</time> Paper on multiscale mortar mixed FEM for the Biot system published in
+      <em>Computer Methods in Applied Mechanics and Engineering</em>.</li>
+    <li><time>Sep 2023</time> Joined Northwestern University as a Postdoctoral Fellow in Applied
+      Mathematics.</li>
+  </ul>
+
+  <h2>Selected publications</h2>
+  <ul class="pub-list">
+    <li><strong>M. Jayadharan</strong>, N. M. Mangan, et al., &ldquo;SODAs: Sparse Optimization
+      for Discovery of Differential-Algebraic Systems from Data,&rdquo; <em>Proceedings of the
+      Royal Society A</em>, 2026.</li>
+    <li><strong>M. Jayadharan</strong>, I. Yotov, &ldquo;Multiscale mortar mixed finite element
+      methods for the Biot system of poroelasticity,&rdquo; <em>Comput. Methods Appl. Mech.
+      Engrg.</em>, 2025.</li>
+    <li><strong>M. Jayadharan</strong>, M. Kern, M. Vohral&iacute;k, I. Yotov, &ldquo;A space-time
+      multiscale mortar mixed finite element method for parabolic equations,&rdquo; <em>SIAM J.
+      Numer. Anal.</em>, 2023.</li>
+    <li>Y. Feng, N. M. Mangan, <strong>M. Jayadharan</strong>&dagger;, &ldquo;Ill-conditioning in
+      dictionary-based dynamic-equation learning,&rdquo; under review at <em>SIAM J. Life
+      Sciences</em>, 2026.</li>
+  </ul>
+  <p><a href="{{ '/publications/' | relative_url }}">Full publication list &rarr;</a></p>
+
+</article>

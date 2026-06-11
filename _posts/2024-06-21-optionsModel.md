@@ -1,6 +1,6 @@
-# Approximations and use of Mathematical Models in Finance, with a focus on Options trading with the help of Greeks. 
-
-Author: Manu Jayadharan
+---
+title: "Approximations and Use of Mathematical Models in Finance: Options Trading with the Help of Greeks"
+---
 
 ## Introduction
 
@@ -197,6 +197,6 @@ $$
 
 __Impact of missing higher-order terms__:
 
-If any of \( \delta_S \), \( \delta_T \), \( \delta_\sigma \), or \( \delta_r \) are large, the higher-order terms become significant. The error introduced by ignoring these terms can be substantial and our hedges fall out of sync. For example, if the price of the option, moving in the case of a large number,
+If any of the market movements, given by $ \delta_S $, $ \delta_T $, $ \delta_\sigma $, or $ \delta_r $, are large, the higher-order terms become significant. The error introduced by ignoring these terms can be substantial and our hedges fall out of sync. For example, consider the case discussed above where we created a delta-neutral portfolio by buying a TSLA call option and shorting some TSLA stock to cancel the delta risk. If the price of TSLA moves by a big number, say 10, then $\delta_S$ is large, and $ \delta_S^2 = 100$ is even larger, so the contribution of the second-order terms to the total change in $P$ can be significant. Depending on the positions we took, we could be in trouble even though we had a completely delta-hedged portfolio!
 
 

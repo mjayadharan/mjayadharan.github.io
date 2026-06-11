@@ -1,10 +1,11 @@
 title: "Manu Jayadharan"
 author: "Manu Jayadharan"
-description: "Personal website of Manu Jayadharan"
+description: "Manu Jayadharan — applied mathematician and computational scientist. Scientific machine learning, numerical methods, and open-source scientific software."
 permalink: /:title/
 lang: "en"
 excerpt_separator: "\n\n\n"
 date_format: "%B %d, %Y"
+mathjax: true              # enables KaTeX rendering site-wide
 
 # Layout
 
@@ -16,18 +17,23 @@ minimal: false             # use a dark header
 # Menu
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
-  - {title: "CV", url: "/items/CV_2022TD.pdf"}
-  - {title: Research, url: "https://www.researchgate.net/profile/Manu-Jayadharan"}
-  - {title: "Publications", url: "/items/publicaton_list.pdf"}
-  - {title: "Teaching", url: "/items/teachingExp.pdf"}
+  - {title: "Home", url: "/", sidebaricon: home}
+  - {title: "Research", url: "/research/", sidebaricon: flask}
+  - {title: "Publications", url: "/publications/", sidebaricon: book-open}
+  - {title: "Software", url: "/software/", sidebaricon: laptop-code}
+  - {title: "Teaching", url: "/teaching/", sidebaricon: chalkboard-teacher}
+  - {title: "Blog", url: "/blog/", sidebaricon: pen}
+  - {title: "CV", url: "/items/CV_Manu_Jayadharan_2026.pdf", sidebaricon: file-pdf}
 
 
   - {title: Github, icon: github, url: "https://github.com/mjayadharan"}
-  
+
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
-  - {title: Mail, icon: envelope, url: "mailto:manu.jayadharan@gmail.com"}
+  - {title: Mail, icon: envelope, url: "mailto:manu.jayadharan@northwestern.edu"}
+  - {title: "Google Scholar", icon: graduation-cap, url: "https://scholar.google.com/citations?user=s4yYujAAAAAJ&hl=en"}
   - {title: Linkedin, icon: linkedin, url: "https://www.linkedin.com/in/manu-jayadharan/"}
+  - {title: ORCID, icon: orcid, url: "https://orcid.org/0009-0007-9287-3325"}
 
 comments:
 #  disqus_shortname: ""    # see https://disqus.com/
