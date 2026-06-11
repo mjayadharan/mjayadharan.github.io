@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 330" font-family="-apple-system, 'Helvetica Neue', 'Segoe UI', Roboto, sans-serif">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#8a90a0"/>
+    </marker>
+  </defs>
+
+  <!-- Scientist box -->
+  <rect x="20" y="70" width="200" height="90" rx="10" fill="#4a5568"/>
+  <text x="120" y="105" text-anchor="middle" fill="#ffffff" font-size="17" font-weight="600">Computational</text>
+  <text x="120" y="127" text-anchor="middle" fill="#ffffff" font-size="17" font-weight="600">scientist</text>
+
+  <!-- AI agent box -->
+  <rect x="330" y="70" width="200" height="90" rx="10" fill="#6688ff"/>
+  <text x="430" y="100" text-anchor="middle" fill="#ffffff" font-size="17" font-weight="600">Frontier AI agents</text>
+  <text x="430" y="122" text-anchor="middle" fill="#eef2ff" font-size="13">Claude Code &#183; Codex</text>
+  <text x="430" y="140" text-anchor="middle" fill="#eef2ff" font-size="13">Gemini</text>
+
+  <!-- Task box -->
+  <rect x="640" y="70" width="200" height="90" rx="10" fill="#4a5568"/>
+  <text x="740" y="98" text-anchor="middle" fill="#ffffff" font-size="16" font-weight="600">Scientific computing</text>
+  <text x="740" y="120" text-anchor="middle" fill="#e2e8f0" font-size="13">ODE/PDE solvers &#183; inverse</text>
+  <text x="740" y="138" text-anchor="middle" fill="#e2e8f0" font-size="13">problems &#183; HPC workflows</text>
+
+  <!-- Validation box -->
+  <rect x="330" y="230" width="200" height="80" rx="10" fill="#38a169"/>
+  <text x="430" y="262" text-anchor="middle" fill="#ffffff" font-size="16" font-weight="600">Validation protocols</text>
+  <text x="430" y="284" text-anchor="middle" fill="#f0fff4" font-size="13">benchmarks &#183; reproducibility</text>
+
+  <!-- Arrows -->
+  <line x1="220" y1="115" x2="322" y2="115" stroke="#8a90a0" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="271" y="100" text-anchor="middle" fill="#8a90a0" font-size="13">agentic skill sets</text>
+
+  <line x1="530" y1="115" x2="632" y2="115" stroke="#8a90a0" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="581" y="100" text-anchor="middle" fill="#8a90a0" font-size="13">verifiable code</text>
+
+  <path d="M 740 160 L 740 270 L 538 270" stroke="#8a90a0" stroke-width="2.5" fill="none" marker-end="url(#arrow)"/>
+  <text x="660" y="290" text-anchor="middle" fill="#8a90a0" font-size="13">outputs audited</text>
+
+  <path d="M 330 270 L 120 270 L 120 168" stroke="#8a90a0" stroke-width="2.5" fill="none" marker-end="url(#arrow)"/>
+  <text x="218" y="258" text-anchor="middle" fill="#8a90a0" font-size="13">trusted results</text>
+</svg>

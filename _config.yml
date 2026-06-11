@@ -30,7 +30,7 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
 
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
-  - {title: Mail, icon: envelope, url: "mailto:manu.jayadharan@northwestern.edu"}
+  - {title: Mail, icon: envelope, url: "mailto:manu.jayadharan@gmail.com"}
   - {title: "Google Scholar", icon: graduation-cap, url: "https://scholar.google.com/citations?user=s4yYujAAAAAJ&hl=en"}
   - {title: Linkedin, icon: linkedin, url: "https://www.linkedin.com/in/manu-jayadharan/"}
   - {title: ORCID, icon: orcid, url: "https://orcid.org/0009-0007-9287-3325"}

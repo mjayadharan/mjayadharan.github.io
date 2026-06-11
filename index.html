@@ -20,7 +20,7 @@ title: "Home"
         <a href="https://github.com/mjayadharan">GitHub</a>
         <a href="https://www.linkedin.com/in/manu-jayadharan/">LinkedIn</a>
         <a href="https://orcid.org/0009-0007-9287-3325">ORCID</a>
-        <a href="mailto:manu.jayadharan@northwestern.edu">Email</a>
+        <a href="mailto:manu.jayadharan@gmail.com">Email</a>
       </div>
     </div>
   </div>
@@ -44,21 +44,49 @@ title: "Home"
   </p>
 
   <h2>What I work on</h2>
-  <ul class="pub-list">
-    <li><strong>Equation discovery from data.</strong> Stable, interpretable algorithms for
-      learning differential and differential-algebraic equations from noisy measurements:
-      <a href="https://doi.org/10.1098/rspa.2025.0201">SODAs</a> (<em>Proc. Royal Society A</em>,
-      2026) and the open-source package
-      <a href="https://github.com/mjayadharan/DAE-FINDER_dev">DAE-FINDER</a>.</li>
-    <li><strong>Inverse problems and optimization.</strong> Multiple-shooting frameworks and
-      custom optimization for ill-conditioned parameter estimation in stiff ODE/PDE systems.</li>
-    <li><strong>Multiphysics PDE solvers.</strong> Fast, flexible finite-element solvers for
-      coupled Poisson&ndash;Nernst&ndash;Planck electrochemical systems; domain decomposition for
-      Biot poroelasticity.</li>
-    <li><strong>Agentic AI for scientific computing.</strong> Protocols, validation frameworks,
-      and reusable agentic skill sets for using frontier AI agents in scientific computing, with a
-      new graduate course at Northwestern in Fall 2026.</li>
-  </ul>
+  <div class="cards">
+    <a class="card" href="{{ '/research/' | relative_url }}">
+      <img src="{{ '/items/im/research/ieee39_powergrid.svg' | relative_url }}"
+           alt="SODAs recovery of algebraic relationships on the IEEE-39 power grid under noise">
+      <div class="card-body">
+        <h3>Equation discovery from data</h3>
+        <p>Stable, interpretable algorithms for learning differential-algebraic equations from
+          noisy measurements: SODAs (<em>Proc. Royal Society A</em>, 2026) and the open-source
+          package DAE-FINDER. Shown: recovery of power-grid constraints on the IEEE-39 benchmark
+          under measurement noise.</p>
+      </div>
+    </a>
+    <a class="card" href="{{ '/research/' | relative_url }}">
+      <img src="{{ '/items/im/research/crn_svd_noisy.svg' | relative_url }}"
+           alt="SVD analysis of a candidate library with 15% noise">
+      <div class="card-body">
+        <h3>Inverse problems &amp; ill-conditioning</h3>
+        <p>Why dictionary-based model discovery fails, diagnosed through inverse-problem theory,
+          and how to fix it. Shown: SVD diagnostics of a chemical-reaction-network candidate
+          library at 15% noise.</p>
+      </div>
+    </a>
+    <a class="card" href="{{ '/research/' | relative_url }}">
+      <img src="{{ '/items/im/research/biotdd_simulation.gif' | relative_url }}"
+           alt="Animated poroelastic flow simulation from BiotDD">
+      <div class="card-body">
+        <h3>Multiphysics PDE solvers</h3>
+        <p>Fast finite-element solvers for coupled Poisson&ndash;Nernst&ndash;Planck
+          electrochemical systems and domain decomposition for Biot poroelasticity. Shown: my
+          MPI-parallel poroelastic flow simulation (BiotDD).</p>
+      </div>
+    </a>
+    <a class="card" href="{{ '/research/' | relative_url }}">
+      <img src="{{ '/items/im/research/agentic_ai_workflow.svg' | relative_url }}"
+           alt="Workflow diagram: scientist steers AI agents through skill sets and validation protocols">
+      <div class="card-body">
+        <h3>Agentic AI for scientific computing</h3>
+        <p>Protocols, validation frameworks, and reusable agentic skill sets for using frontier AI
+          agents in scientific computing, with a new graduate course at Northwestern in
+          Fall 2026.</p>
+      </div>
+    </a>
+  </div>
   <p><a href="{{ '/research/' | relative_url }}">More about my research &rarr;</a></p>
 
   <h2>News</h2>
